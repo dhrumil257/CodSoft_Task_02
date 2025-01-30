@@ -50,10 +50,17 @@ Identified both the best and worst-performing movies in terms of votes and ratin
 Insights on directors with the most and least movies were gained.
 The distribution of movies over the years is skewed, with a concentration in the 2015-2019 period.
 In 2010, some movies had the highest average votes.
+
 Short-duration movies tend to receive higher ratings and votes, indicating a potential preference for shorter films.
+
 Drama is a consistently popular genre, while Comedy and Action genres had their origins in 1953 and 1964, respectively.
+
 The distribution of ratings and votes follows Gaussian-like patterns, with specific peaks and trends over time.
-Furthermore, the evaluation of machine learning models revealed that Random Forest outperformed other Regression models, with an impressive R-squared score of 93.5% and lowest Mean Squared Error (MSE) of 0.12 on unseen data, highlighting the model's robustness. Followed by XGBoost model with R-squared score of 91.4% and Mean Squared Error (MSE) of 0.16, and then Decision Tree Regression model with R-squared score of 90.7% and Mean Squared Error (MSE) of 0.17.
+
+Furthermore, the evaluation of machine learning models revealed that Random Forest outperformed other Regression models, with an impressive R-squared score of 93.5% and lowest Mean Squared Error (MSE) of 0.12 on unseen data, highlighting the model's robustness. 
+
+Followed by XGBoost model with R-squared score of 91.4% and Mean Squared Error (MSE) of 0.16, and then Decision Tree Regression model with R-squared score of 90.7% and Mean Squared Error (MSE) of 0.17.
+
 Throughout the analysis, I gained a deep understanding of the dataset and its trends. This knowledge can be leveraged to make informed decisions regarding movie production, genres, and more. Future work could involve building more advanced machine learning models or diving deeper into specific genres or time periods to uncover additional insights.
 
 # Conclusion:
