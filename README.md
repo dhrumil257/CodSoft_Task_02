@@ -58,7 +58,11 @@ Throughout the analysis, I gained a deep understanding of the dataset and its tr
 
 # Conclusion:
 In analyzing the IMDb Movies India Dataset, I navigated through data visualization, data preprocessing, and machine learning model selection. And then we embarked on a journey to analyze and predict movie ratings.
+
 We encountered a variety of data challenges, such as handling missing values, handling duplicated records, cleaning typos or unnecessary special characters in various columns, detecting outliers and removing the outliers by IQR Method.
+
 Through a series of Data preprocessing steps, we were able to prepare the dataset for Exploratory data analysis(EDA).
+
 The analysis uncovered several interesting insights about the movie dataset. We observed trends in movie durations, genre popularity, the most prolific actors and directors, and the distribution of movie ratings and votes over the years. Notably, we found that short-duration movies tend to receive higher ratings and votes, and the Drama genre has consistently performed well in terms of ratings.
+
 Furthermore, the evaluation of machine learning models revealed that Random Forest outperformed other Regression models, with an impressive R-squared score of 93.5% and lowest Mean Squared Error (MSE) of 0.12 on unseen data, highlighting the model's robustness. Followed by XGBoost model with R-squared score of 91.4% and Mean Squared Error (MSE) of 0.16, and then Decision Tree Regression model with R-squared score of 90.7% and Mean Squared Error (MSE) of 0.17.
